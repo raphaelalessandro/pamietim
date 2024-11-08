@@ -11,7 +11,7 @@ export default function Exemplo2 () {
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>
-                Exemplo 2
+                Atividade 2
             </Text>
             <Image source={logo} style={styles.imagem} /> 
 

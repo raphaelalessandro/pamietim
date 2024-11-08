@@ -2,11 +2,16 @@ import { Text } from 'react-native';
 
 import styles from './styles';
 
-export default function Mensagem(props) {
+export default function Mensagem({nome, idade}) {
     return (
+        <View style={styles.conatiner}>
         <Text style={styles.texto}>
-            Olá {props.nome + '\n' + 'idade:' + props.idade}
+            Olá {nome}
         </Text>
+        <Text style={styles.idade}>
+        Idade:{idade}
+        </Text>
+        </View>
     );
 }
 
