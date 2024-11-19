@@ -1,10 +1,10 @@
-import { Text } from 'react-native';
+import { Text, View } from 'react-native';
 
 import styles from './styles';
 
 export default function Mensagem({nome, idade}) {
     return (
-        <View style={styles.conatiner}>
+        <View style={styles.container}>
         <Text style={styles.texto}>
             Olá {nome}
         </Text>

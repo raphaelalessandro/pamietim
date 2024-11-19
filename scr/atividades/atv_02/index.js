@@ -1,10 +1,11 @@
-import { View, Text, Image } from 'react-native'; 
+import {View, Text, Image } from 'react-native';
 
 import Mensagem from './mensagem';
 
 import logo from '../../../assets/002-1-react-native.png'; 
 
 import styles from './styles';
+
 
 export default function Exemplo2 () { 
 
@@ -16,8 +17,8 @@ export default function Exemplo2 () {
             <Image source={logo} style={styles.imagem} /> 
 
             <Mensagem nome={'Raphael'} idade={16}/>
-            <Mensagem nome={'tango'} idade={17} />
-            <Mensagem nome={'alessa'} idade={18}/>
+            <Mensagem nome={'amora'} idade={17} />
+            <Mensagem nome={'kiki'} idade={18}/>
         </View>
     );
 }

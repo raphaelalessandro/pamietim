@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
         borderBottomWidth:  RFValue(2),
         width: '100%',
         alignItems: 'center',
-    }
+    },
 
 });
 

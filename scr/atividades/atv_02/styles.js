@@ -12,11 +12,11 @@ const styles = StyleSheet.create({
 },
 titulo:{
     fontSize: RFValue(25),
-    color:'#fafafa',
+    color:'bold',
 },
 imagem: {
     width: '80%',
     resizeMode: 'center', //stretch
-}
+},
 });
 export default styles;
